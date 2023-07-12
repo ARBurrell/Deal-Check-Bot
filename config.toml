@@ -1,0 +1,20 @@
+[mode]
+test_mode = "false"
+
+[discord]
+token = "REPLACE WITH BOT TOKEN"
+deal_channel_name = "amazon-deals"
+guild_id = "REPLACE WITH GUILD ID"
+startup_check_enabled = true
+
+[testdiscord]
+token = "000000"
+deal_channel_name = "amazon-deals"
+guild_id = "000000"
+startup_check_enabled = true
+
+[files]
+links_file = "links.csv"
+deal_phrases = "deal_phrases.txt"
+no_deal_phrases = "no_deal_phrases.txt"
+
