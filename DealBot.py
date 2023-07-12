@@ -51,7 +51,7 @@ def get_random_phrase(phrases):
 deal_phrases = load_phrases('deal_phrases.txt')
 no_deal_phrases = load_phrases('no_deal_phrases.txt')
 
-# On startup, confirm login and confirm readiness, check for previous entries, check link and post it if mismatching 
+# On startup, confirm login and confirm readiness, check for previous entries, check link and post it if mismatching
 @client.event
 async def on_ready():
     logging.info('Logged in successfully!')
@@ -155,7 +155,7 @@ async def get_new_deal_link():
 # Manually sync slash commands using a ! command to keep it away from public usage
 async def on_message(message):
     if message.content.startswith('!slashSync'):
-        try:        
+        try:
             await tree.sync()
 
             print(f'Synced')

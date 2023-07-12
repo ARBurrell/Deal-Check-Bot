@@ -17,4 +17,3 @@ startup_check_enabled = true
 links_file = "links.csv"
 deal_phrases = "deal_phrases.txt"
 no_deal_phrases = "no_deal_phrases.txt"
-
